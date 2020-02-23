@@ -1,0 +1,155 @@
+body{
+	font-family: 'Source code pro', Calibri, serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav{
+	width: 100%;
+	background-color: #424558;
+}
+
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav > ul >li{
+	float: left;
+	position: relative;
+}
+
+nav > ul > li > a{
+	padding: 20px 30px;
+	color: #FFF;
+}
+
+nav > ul > li:hover a {
+	padding: 15px 30px 20px 30px;
+}
+
+nav li{
+	list-style-type: none;
+
+}
+
+.submenu{
+	display: none;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top:100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+}
+
+.submenu li{
+	border-bottom: 1px solid #CCC;
+}
+
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width: 270px;
+}
+
+.menu-acceuil:hover{
+	border-top: 5px solid #e44d26;
+	background-color: rgba(228, 77, 38, 0.15);
+}
+
+.menu-sports:hover{
+	border-top: 5px solid #0070bb;
+	background-color: rgba(000, 112, 192, 0.15);
+}
+
+.menu-plus:hover{
+	border-top: 5px solid #f1dc4f;
+	background-color: rgba(241, 211, 71, 0.15);
+}
+
+.menu-plus .submenu{
+	background-color: rgb(250,215,100);
+}
+
+.menu-sports .submenu{
+	background-color: rgb(000,160,240);
+}
+
+.submenu li:hover a{
+	color: #EEE;
+	font-weight: bold;
+}
+
+.menu-acceuil .submenu li:hover{
+	background-color: rgb(210, 77, 60);
+}
+
+.menu-sports .submenu li:hover{
+	background-color: rgb(000, 115, 200);
+}
+
+.titre{
+	text-align: center;
+	font-size: 40px;
+}
+
+footer{
+	background-color: grey;
+}
+
+/*********************PAGE FOOT************************/
+div#content div{
+	display: inline-block;
+	width: 48%;
+}
+
+div#content div.leftbox{
+	width: 65%;
+	vertical-align: top;
+}
+
+div#content div.rightbox{
+	width: 33%;
+}
+
+div#content div.leftbox p{
+	margin:center;
+	padding-left: 30px;
+}
+
+div#content div.rightbox img{
+	padding-right: 30px;
+}
+
+div#content p {
+	padding-left: 30px;
+}
+
+h2{
+	font-size: 35px;
+}
+
+div.box img{
+	margin-left: 350px;
+}
+
+div.box p{
+	margin-left: 30px;
+}
+
